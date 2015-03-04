@@ -1,9 +1,29 @@
+.navbar-default img {
+  max-height: 40px;
+  margin-top: -8px;
+}
+
 html {
   position: relative;
   min-height: 100%;
 }
 
-.navbar-default img {
-  max-height: 40px;
-  margin-top: -8px;
+.main-title {
+  font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
+  font-size: 3em;
+  padding-bottom: 5%;
+}
+.well-container {
+  padding: 2% 15%;
+}
+.well-container .description {
+  padding-bottom: 5%;
+  font-size: 1.2em;
+}
+.well-container .description .well {
+  padding: 5% 20%;
+  text-transform: uppercase;
+}
+.well-container .description .well .message {
+  padding-top: 5%;
 }
