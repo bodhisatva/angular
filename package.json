@@ -1,7 +1,7 @@
 {
-  "name": "Bax",
+  "name": "Angular-exercises",
   "version": "0.0.1",
-  "description": "Basic boilerplate for rapid prototyping with Bootstrap, Angular and Express",
+  "description": "Angular-exercises with Bootstrap and Express",
   "main": "gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

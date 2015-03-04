@@ -4,7 +4,7 @@
 
 /*module.exports = {
   appinformation: {
-    title: "Boilerplate",
-    description: "Boilerplate for projects"
+    title: "Angular exercises",
+    description: "Angular exercises"
   }
 };*/

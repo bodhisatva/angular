@@ -2,24 +2,8 @@ html {
   position: relative;
   min-height: 100%;
 }
-html body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-  /*Sticky footer rules*/
-}
-html body .title {
-  font-size: 4em;
-}
-html body .icon-cover {
-  padding: 3%;
-  font-size: 6em;
-}
-html body .footer {
-  padding-top: 40px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 100px;
-  background-color: #f5f5f5;
+
+.navbar-default img {
+  max-height: 40px;
+  margin-top: -8px;
 }

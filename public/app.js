@@ -9,6 +9,6 @@ angular.module('app', [
     $stateProvider
       .state('home', {
         url: '/',
-        templateUrl: 'modules/core/views/home.html',
+        templateUrl: 'modules/core/views/home.container.html',
       });
   }]);
