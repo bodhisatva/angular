@@ -1,4 +1,4 @@
-## BAX
+## Angular Exercises
 Angular-exercises with Bootstrap and Express.
 
 ## Prerequisites
