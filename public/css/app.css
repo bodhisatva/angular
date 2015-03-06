@@ -20,10 +20,21 @@ html {
   padding-bottom: 5%;
   font-size: 1.2em;
 }
-.well-container .description .well {
+.well-container .well {
   padding: 5% 20%;
   text-transform: uppercase;
 }
-.well-container .description .well .message {
+@media (max-width: 767px) {
+  .well-container .well {
+    padding: 5%;
+  }
+}
+.well-container .well .message {
   padding-top: 5%;
+}
+@media (max-width: 767px) {
+  .well-container .well .message {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
 }
