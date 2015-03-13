@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('app').controller('FilterCtrl', ['$scope',
+angular.module('filters').controller('FilterCtrl', ['$scope',
   function($scope) {
-  
+
   }
 ]);

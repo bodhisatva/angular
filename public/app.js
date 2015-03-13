@@ -1,6 +1,8 @@
 'use strict'
 angular.module('app', [
-    'ui.router'
+    'ui.router',
+    'sharingData',
+    'filters'
   ])
   //For configuring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
