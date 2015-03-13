@@ -1,5 +1,5 @@
 'use strict';
 
-angular.module('app').controller('FirstSharingDataCtrl', ['$scope', 'Data', function($scope, Data) {
+angular.module('sharingData').controller('FirstSharingDataCtrl', ['$scope', 'Data', function($scope, Data) {
   $scope.data = Data;
 }]);

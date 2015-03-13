@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     serverViews: ['app/views/**/*.html'],
     clientViews: ['public/modules/**/**/*.html'],
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
-    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/*.js','public/modules/sharingData/**/*.js'],
+    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/*.js','public/modules/sharingData/**/*.js','public/modules/filters/**/*.js'],
     clientCSS: ['public/modules/core/css/*.less','public/modules/sharingData/css/*.less']
   };
 
