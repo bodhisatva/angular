@@ -7,7 +7,7 @@ var configuration = require('./app/configuration/appinformation');
 var swig = require('swig');
 var app = express();
 
-//Configuration file for all information
+//Configuration for app information
 app.locals.title = configuration.appinformation.title;
 app.locals.description = configuration.appinformation.description;
 app.locals.keywords = configuration.appinformation.keywords;
