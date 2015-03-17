@@ -1,6 +1,6 @@
 'use strict';
 
-//TODO create single configuration file for application information and static files
+//Configuration file for application information
 
 module.exports = {
   appinformation: {
