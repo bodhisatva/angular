@@ -1,5 +1,5 @@
 ## Angular Exercises
-Angular exercises with Bootstrap and Express. Can be used as a model for prototype applications. Application uses Grunt taskrunner, Bower, LESS for precompiled CSS and autoreload files with Liveload. Templating engine is Swig. Work in progress.
+Angular exercises with Bootstrap and Express. Can be used as a model for prototype applications. Application uses Grunt taskrunner, Bower, LESS for precompiled CSS and autoreloads files with Liveload. Templating engine is Swig. Work in progress.
 
 ## Prerequisites
 Make sure you have Node.js, Bower and grunt-cli installed on your machine. If not, download Node.js (http://www.nodejs.org/download/) and install the package. With npm install globally Bower and grunt-cli via command line:
