@@ -1,5 +1,5 @@
 ## Angular Exercises
-Angular exercises with Bootstrap and Express. Can be used as a model for prototype applications. Application uses Grunt taskrunner, Bower, LESS for precompiled CSS and autoreloads files with Liveload. Templating engine is Swig. Work in progress.
+Angular exercises with Bootstrap and Express. Can be used as a model for prototype applications. Application uses Grunt taskrunner, Bower, LESS for precompiled CSS and autoreloads files with Livereload. Templating engine is Swig. Work in progress.
 
 ## Prerequisites
 Make sure you have Node.js, Bower and grunt-cli installed on your machine. If not, download Node.js (http://www.nodejs.org/download/) and install the package. With npm install globally Bower and grunt-cli via command line:
@@ -28,7 +28,7 @@ Server side files are located in the app folder.
 
     app
        |
-       |--configuration         # Configuration files for application information.
+       |--configuration         # Configuration files for application information
        |--router                # Express routing REST configuration files
        |--views                 # Server side views
           |--swig-templates     # Templates for Swig
@@ -47,16 +47,16 @@ Public folder contains all front-end files
         |   |   |
         |   |   |--controllers  # AngularJS Controllers
         |   |   |--css          # General Less files
-        |   |   |--views        # General html-files e.g. container for articles
+        |   |   |--views        # General html files e.g. container for articles
         |   |
         |   |--< module name >  # Name of current module
         |       |
         |       |--controllers  # AngularJS Controllers
         |       |--css          # Module specific Less files
-        |       |--directives   # Module specific AngularJS
+        |       |--directives   # Module specific AngularJS directives
         |       |--filter       # Module specific AngularJS filters
         |       |--services     # Module specific AngularJS services
-        |       |--views        # Module specific html-files
+        |       |--views        # Module specific html files
         |
         |--resources            # Application wide shared resources e.g. images
         |       |--images
