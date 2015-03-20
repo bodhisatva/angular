@@ -6,12 +6,12 @@
   font-size: 3em;
   padding-bottom: 2%;
 }
+.article .description {
+  padding: 5% 15% 2% 15%;
+  font-size: 1.2em;
+}
 .article .well-container {
   padding: 2% 15%;
-}
-.article .well-container .description {
-  padding-bottom: 5%;
-  font-size: 1.2em;
 }
 .article .well-container .well {
   padding: 5% 20%;
@@ -41,4 +41,5 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 
