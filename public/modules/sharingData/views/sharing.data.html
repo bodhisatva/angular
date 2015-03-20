@@ -1,3 +1,9 @@
-<div class="container" data-ng-controller="SharingDataInformationCtrl as sharingDataInformation">
-  <div data-ng-include="'/modules/core/views/article.well.html'"></div>
+<div class="container">
+    <div class="row">
+        <h1 class="text-center main-title">Sharing data with Factories</h1>
+        <p class="description">Sharing same data with two separate controllers without scope inheritance. Sharing is done by using factory service.</p>
+    </div>
+    <div data-ng-controller="FirstArticleCtrl as firstArticle">
+        <article-content data-test-string="Sharing same data from sharing.data.service factory."></article-content>
+    </div>
 </div>

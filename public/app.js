@@ -2,7 +2,8 @@
 angular.module('app', [
     'ui.router',
     'sharingData',
-    'filters'
+    'filters',
+    'ngFilters'
   ])
   //For configuring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
