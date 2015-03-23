@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('filters').controller('SecondFilterCtrl', ['$scope', 'Data',
-  function($scope, Data) {
-    $scope.data = Data;
+angular.module('filters').controller('SecondFilterCtrl', ['$scope', 'Filters',
+  function($scope, Filters) {
+    $scope.filters = Filters;
   }
 ]);
