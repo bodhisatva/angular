@@ -1,32 +1,32 @@
 .article {
-  padding: 3% 0 0 0;
+  padding: 3% 15%;
 }
-.article .main-title {
+.main-title {
   font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
   font-size: 3em;
-  padding-bottom: 2%;
+  padding: 2% 0;
 }
-.article .description {
-  padding: 5% 15% 2% 15%;
+.description {
+  padding: 5% 15%;
   font-size: 1.2em;
 }
-.article .well-container {
-  padding: 2% 15%;
+.well-container {
+  padding: 2% 0;
 }
-.article .well-container .well {
-  padding: 5% 20%;
+.well-container .well {
+  padding: 5% 15%;
   text-transform: uppercase;
 }
 @media (max-width: 767px) {
-  .article .well-container .well {
+  .well-container .well {
     padding: 5%;
   }
 }
-.article .well-container .well .message {
+.well-container .well .message {
   padding-top: 5%;
 }
 @media (max-width: 767px) {
-  .article .well-container .well .message {
+  .well-container .well .message {
     font-size: 0.9em;
     font-weight: bold;
   }
