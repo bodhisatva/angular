@@ -2,20 +2,22 @@
   <h1 class="text-center main-title">Built-in Angular filter</h1>
   <p class="description">Using AngularJS built-in ng-filters. Table is produced by using AngularJS ng-repeat filter. Data is filtered from JSON Array which.</p>
 </div>
-
+<!--Responsive table-->
 <div data-ng-controller="AdressCtrl">
-  <div class="table-responsive">
-    <table class="table table-striped text-center">
-      <thead>
-        <tr>
-          <th class="text-center">Name</th>
-          <th class="text-center">City</th>
+  <div class="row">
+    <div class="table-responsive">
+      <table class="table table-striped text-center">
+        <thead>
+          <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">City</th>
+          </tr>
+        </thead>
+        <tr data-ng-repeat="address in address.list">
+          <td>{{address.name}}</td>
+          <td>{{address.city}}</td>
         </tr>
-      </thead>
-      <tr data-ng-repeat="address in address.list">
-        <td>{{address.name}}</td>
-        <td>{{address.city}}</td>
-      </tr>
-    </table>
+      </table>
+    </div>
   </div>
 </div>

@@ -12,14 +12,15 @@
 .description {
   padding: 5% 15%;
   font-size: 1.2em;
+  @media(max-width: @screen-xs-max) {
+    padding: 5% 0;
+  }
 }
 
 .well-container {
   padding: 2% 0;
-  
   .well {
     padding: 5% 15%;
-    
     text-transform: uppercase;
     @media(max-width: @screen-xs-max) {
       padding: 5%;
