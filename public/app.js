@@ -3,9 +3,10 @@ angular.module('app', [
     'ui.router',
     'sharingData',
     'filters',
-    'ngFilters'
+    'ngFilters',
+    'directivesToCtrl'
   ])
-  //For configuring providers
+  //For directivesCtrlconfiguring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
     $urlRouterProvider.otherwise('/');
 

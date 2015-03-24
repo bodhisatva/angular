@@ -1,15 +1,19 @@
 <div class="article">
-  <!--Sharing data-->
+  <!--sharingData-->
   <div class="row ">
     <div data-ng-include=" '/modules/sharingData/views/sharing.data.html' "></div>
   </div>
-  <!--Custom Filter-->
+  <!--filters-->
   <div class="row ">
     <div data-ng-include=" '/modules/filters/views/filter.html' "></div>
   </div>
   <!--ng-filter-->
   <div class="row ">
-    <div data-ng-include=" 'modules/ngFilters/views/ng.filter.html' ">
+    <div data-ng-include=" '/modules/ngFilters/views/ng.filter.html' ">
     </div>
+  </div>
+  <!--directivesToCtrl-->
+  <div class="row">
+    <div data-ng-include="'/modules/directivesToCtrl/views/directives.to.ctrl.html'"></div>
   </div>
 </div>
