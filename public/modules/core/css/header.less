@@ -1,6 +1,13 @@
- .navbar-default {
-   img {
-     max-height: 40px;
-     margin-top: -8px;
-   }
- }
+@import "public/bower_components/bootstrap/less/variables.less";
+.navbar {
+  img {
+    max-height: 40px;
+    margin-top: -8px;
+  }
+  .navbar-brand {
+    @media(max-width: @screen-xs-max) {
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
+}
