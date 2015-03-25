@@ -74,17 +74,17 @@ html {
 
 
 
-.btn-lg {
+.directive .btn {
   border-radius: 0;
   background-color: #000000;
   color: white;
   border: none;
 }
-.btn-lg:hover {
+.directive .btn:hover {
   background-color: #595959;
   color: white;
 }
-.btn-lg:active {
+.directive .btn:active {
   background-color: #000000;
   color: white;
 }
