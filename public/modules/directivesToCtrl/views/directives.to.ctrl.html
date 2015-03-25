@@ -1,0 +1,16 @@
+<div class="row">
+  <h1 class="text-center main-title">Directives</h1>
+</div>
+<div class="row leading">
+  <p class="description">Creating custom directive. Directive is an attribute inside button element and it communicates with controller. Directive called block binds element with click function and executes alert which is defined in the controller scope.</p>
+  <p class="description">The directive is separated from the controller which allows reuse it with different controllers.</p>
+</div>
+<div data-ng-controller="directivesCtrl as directives">
+  <div class="row">
+    <div class="text-center">
+      <a block="showAlert()" type="button" class="btn btn-default btn-lg">Directive
+      </a>
+      <a block="showSecondAlert()" type="button" class="btn btn-default btn-lg">Directive
+      </a>
+    </div>
+  </div>

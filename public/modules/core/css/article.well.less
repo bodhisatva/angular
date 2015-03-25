@@ -6,20 +6,25 @@
 .main-title {
   font-family: "Source Sans Pro", Calibri, Candara, Arial, sans-serif;
   font-size: 3em;
-  padding: 2% 0;
+  padding: 3% 0;
+  border-bottom: 1px solid #eee;
 }
 
-.description {
-  padding: 5% 15%;
-  font-size: 1.2em;
-  @media(max-width: @screen-xs-max) {
-    padding: 5% 0;
+.leading {
+  padding: 3% 0;
+  .description {
+    padding: 0 15%;
+    font-size: 1.2em;
+    @media(max-width: @screen-xs-max) {
+      padding: 5% 0;
+    }
   }
 }
 
 .well-container {
   padding: 2% 0;
   .well {
+    border-radius: 0;
     padding: 5% 15%;
     text-transform: uppercase;
     @media(max-width: @screen-xs-max) {
