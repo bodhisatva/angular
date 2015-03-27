@@ -10,13 +10,13 @@ directivesToCtrl.controller('DirectivesCtrl', ['$scope', '$sce', function($scope
 
   $scope.firstFunction = function() {
     $scope.directive = {
-      text: $sce.trustAsHtml('&dollar;firstFunction()')
+      text: $sce.trustAsHtml('firstFunction()')
     }
   }
 
   $scope.secondFunction = function() {
     $scope.directive = {
-      text: $sce.trustAsHtml('&dollar;secondFunction()')
+      text: $sce.trustAsHtml('secondFunction()')
     }
   }
 
