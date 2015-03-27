@@ -2,15 +2,25 @@
   <h1 class="text-center main-title">Directives</h1>
 </div>
 <div class="row leading">
-  <p class="description">Creating custom directive. Directive is an attribute inside button element and it communicates with controller. Directive called block binds element with click function and executes alert which is defined in the controller scope.</p>
-  <p class="description">The directive is separated from the controller which allows reuse it with different controllers.</p>
+  <p class="description">Creating custom directive. Directive is an attribute inside button element and communicates with controller. The attribute called block binds element with click function and executes the function which is defined in the controller scope.</p>
+  <p class="description">The directive is separated from the controller which allows reuse it with different controllers and functions.</p>
 </div>
-<div data-ng-controller="directivesCtrl as directives">
+<div data-ng-controller="DirectivesCtrl as directives">
   <div class="row">
     <div class="text-center directive">
-      <a block="showAlert()" type="button" class="btn btn-default btn-lg">Directive
+      <a block="firstFunction()" type="button" class="btn btn-default btn-lg">Directive
       </a>
-      <a block="showSecondAlert()" type="button" class="btn btn-default btn-lg">Directive
+      <a block="secondFunction()" type="button" class="btn btn-default btn-lg">Directive
       </a>
+    </div>
+  </div>
+  <div class="well-container">
+    <div class="row">
+      <h4 class="text-uppercase"><span class="glyphicon glyphicon-refresh"></span> Directives Controller</h4>
+    </div>
+    <div class="row">
+      <div class="well text-center">
+        <p class="well-directives">This text is bind to <span class="directive-bind" ng-bind-html="directive.text"></span> from Directives controller</p>
+      </div>
     </div>
   </div>

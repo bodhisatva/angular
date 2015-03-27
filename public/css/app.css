@@ -25,7 +25,6 @@
 .well-container .well {
   border-radius: 0;
   padding: 5% 15%;
-  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .well-container .well {
@@ -40,6 +39,9 @@
     font-size: 0.9em;
     font-weight: bold;
   }
+}
+.well-container .well h4 {
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -74,6 +76,9 @@ html {
 
 
 
+.directive {
+  padding: 5% 0;
+}
 .directive .btn {
   border-radius: 0;
   background-color: #000000;
@@ -87,4 +92,11 @@ html {
 .directive .btn:active {
   background-color: #000000;
   color: white;
+}
+.well-directives {
+  font-size: 1.2em;
+}
+.well-directives .directive-bind {
+  color: #CC4040;
+  font-weight: bold;
 }

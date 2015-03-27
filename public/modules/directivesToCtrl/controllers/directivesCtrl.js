@@ -2,12 +2,22 @@
 
 var directivesToCtrl = angular.module('directivesToCtrl', []);
 
-directivesToCtrl.controller('directivesCtrl', ['$scope', function($scope) {
-  $scope.showAlert = function() {
-    alert('This is showAlert function from directivesCtrl');
-  };
-  $scope.showSecondAlert = function() {
-    alert('This is showSecondAlert function from directivesCtrl');
-  };
+directivesToCtrl.controller('DirectivesCtrl', ['$scope', '$sce', function($scope, $sce) {
+
+  $scope.directive = {
+    text: $sce.trustAsHtml('&dollar;scope.directive')
+  }
+
+  $scope.firstFunction = function() {
+    $scope.directive = {
+      text: $sce.trustAsHtml('&dollar;firstFunction()')
+    }
+  }
+
+  $scope.secondFunction = function() {
+    $scope.directive = {
+      text: $sce.trustAsHtml('&dollar;secondFunction()')
+    }
+  }
 
 }]);
