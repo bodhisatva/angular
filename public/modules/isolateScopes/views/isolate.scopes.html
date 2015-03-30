@@ -5,3 +5,13 @@
   <p class="description">Directives isolate scope blocks prototypical inheritance from its parents. Creating scope object with explicitly added models.</p>
 </div>
 
+<div class="well-container" data-ng-controller="notIsolatedCtrl as notIsolated">
+    <div class="row">
+      <h4 class="text-uppercase"><span class="glyphicon glyphicon-refresh"></span> Not isolated Directive</h4>
+    </div>
+    <div class="row">
+      <div class="well text-center">
+        <p class="well-directives">Highlighted text is bind to <span class="directive-bind" ng-bind-html="directive.text"></span> from Directives controller</p>
+      </div>
+    </div>
+  </div>

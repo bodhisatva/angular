@@ -4,7 +4,8 @@ angular.module('app', [
     'sharingData',
     'filters',
     'ngFilters',
-    'directivesToCtrl'
+    'directivesToCtrl',
+    'isolatedScopes'
   ])
   //For directivesCtrlconfiguring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
