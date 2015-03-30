@@ -2,7 +2,7 @@
   <h1 class="text-center main-title">Isolated scopes</h1>
 </div>
 <div class="row leading">
-  <p class="description">In directive isolate scope blocks prototypical inheritance from its parents. Creating scope object with explicitly added models.</p>
+  <p class="description">Creating a scope object in custom directive. The scope object isolates directive with explicitly added models. The isolate scope blocks prototypical inheritance from its parents.</p>
   <p class="description">Element directive not-isolated creates input field and produces input message. The message is multiplied because the directive is missing a scope object.</p>
 </div>
 <div class="well-container" data-ng-controller="notIsolatedCtrl as notIsolated">
@@ -18,7 +18,7 @@
   </div>
 </div>
 <div class="row leading">
-  <p class="description">In isolate directive version scope has been isolated with scope object in order to prevent multiplying directives input text.</p>
+  <p class="description">In isolate directive scope has been isolated with a scope object in order to prevent multiplying directives input text.</p>
 </div>
 <div class="well-container" data-ng-controller="isolatedCtrl as isolated">
   <div class="row">
