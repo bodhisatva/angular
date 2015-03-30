@@ -20,7 +20,7 @@
   }
 }
 .well-container {
-  padding: 2% 0;
+  padding: 5% 3%;
 }
 .well-container .well {
   border-radius: 0;
@@ -80,7 +80,7 @@ html {
 
 
 .directive {
-  padding: 10% 0 5% 0;
+  padding: 10% 0;
 }
 .directive .btn {
   border-radius: 0;

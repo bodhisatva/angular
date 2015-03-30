@@ -1,16 +1,34 @@
 <div class="row">
-  <h1 class="text-center main-title">Isolate scopes</h1>
+  <h1 class="text-center main-title">Isolated scopes</h1>
 </div>
 <div class="row leading">
-  <p class="description">Directives isolate scope blocks prototypical inheritance from its parents. Creating scope object with explicitly added models.</p>
+  <p class="description">In directive isolate scope blocks prototypical inheritance from its parents. Creating scope object with explicitly added models.</p>
+  <p class="description">Element directive not-isolated creates input field and produces input message. The message is multiplied because the directive is missing a scope object.</p>
 </div>
 <div class="well-container" data-ng-controller="notIsolatedCtrl as notIsolated">
   <div class="row">
-    <h4 class="text-uppercase"><span class="glyphicon glyphicon-refresh"></span> Not isolated Directive</h4>
+    <h4 class="text-uppercase"><span class="glyphicon glyphicon-off"></span> Not isolated Directive</h4>
   </div>
   <div class="row">
     <div class="well text-center">
       <not-isolated></not-isolated>
+      <not-isolated></not-isolated>
+      <not-isolated></not-isolated>
+    </div>
+  </div>
+</div>
+<div class="row leading">
+  <p class="description">In isolate directive version scope has been isolated with scope object in order to prevent multiplying directives input text.</p>
+</div>
+<div class="well-container" data-ng-controller="isolatedCtrl as isolated">
+  <div class="row">
+    <h4 class="text-uppercase"><span class="glyphicon glyphicon-ban-circle"></span> Isolated Directive</h4>
+  </div>
+  <div class="row">
+    <div class="well text-center">
+      <isolated-directive></isolated-directive>
+      <isolated-directive></isolated-directive>
+      <isolated-directive></isolated-directive>
     </div>
   </div>
 </div>
