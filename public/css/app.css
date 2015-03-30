@@ -24,7 +24,7 @@
 }
 .well-container .well {
   border-radius: 0;
-  padding: 5% 15%;
+  padding: 5% 15% 2% 15%;
 }
 @media (max-width: 767px) {
   .well-container .well {
@@ -32,7 +32,7 @@
   }
 }
 .well-container .well .message {
-  padding-top: 5%;
+  padding: 3%;
 }
 @media (max-width: 767px) {
   .well-container .well .message {
@@ -42,6 +42,9 @@
 }
 .well-container .well h4 {
   text-transform: uppercase;
+}
+.well-container .well .form-control {
+  border-radius: 0;
 }
 
 .navbar {

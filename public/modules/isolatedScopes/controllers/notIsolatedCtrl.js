@@ -2,6 +2,6 @@
 
 var isolatedScopes = angular.module('isolatedScopes', []);
 
-isolatedScopes.controller('notIsolatedCtrl', [$scope, function($scope){
+isolatedScopes.controller('notIsolatedCtrl', ['$scope', function($scope){
 
 }]);
