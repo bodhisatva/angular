@@ -16,8 +16,8 @@
           </tr>
         </thead>
         <tr data-ng-repeat="address in address.list">
-          <td>{{address.name}}</td>
-          <td>{{address.city}}</td>
+          <td data-ng-bind="address.name"></td>
+          <td data-ng-bind="address.city"></td>
         </tr>
       </table>
     </div>
