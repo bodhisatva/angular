@@ -60,6 +60,7 @@ Public folder contains all front-end files
         |
         |--resources            # Application wide shared resources e.g. images
         |       |--images
+        |       |--templateUrl  # Templates for directives
         |
         |--app.js               # Configuration of AngularJS providers
 
