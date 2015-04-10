@@ -5,7 +5,8 @@ angular.module('app', [
     'filters',
     'ngFilters',
     'directivesToCtrl',
-    'isolatedScopes'
+    'isolatedScopes',
+    'stringScope'
   ])
   //For directivesCtrlconfiguring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {

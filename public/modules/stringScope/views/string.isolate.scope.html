@@ -1,0 +1,20 @@
+<div class="row">
+  <h1 class="text-center main-title">Binding isolated scopes to a DOM attribute</h1>
+</div>
+<div class="row leading">
+  <p class="description">Restricting custom directive scope using &commat; symbol. Symbol sets one-way databinding from parent scope to isolated scope. When the parent scope changes, isolated scope will update. Databinding works only one-way, you can´t update the parent scope from the isolated scope.</p>
+  <p class="description">Expression is always a string because DOM elements are strings.</p>
+</div>
+<div data-ng-controller="stringScopeCtrl as stringScope">
+  <div class="row">
+    <div class="well-container">
+      <div class="row">
+        <h4 class="text-uppercase"><span class="glyphicon glyphicon-refresh"></span> Parent Scope</h4>
+      </div>
+      <div class="well text-center">
+        <input type="text" class="form-control text-center" data-ng-model="controllerText" />
+      </div>
+      <string-directive text="{{controllerText}}"></string-directive>
+    </div>
+  </div>
+</div>
