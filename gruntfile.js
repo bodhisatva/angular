@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
 
     clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/**/*.js', 'public/modules/sharingData/**/**/*.js', 'public/modules/filters/**/**/*.js', 'public/modules/ngFilters/**/**/*.js', 'public/modules/directivesToCtrl/**/**/*.js', 'public/modules/isolatedScopes/**/**/*.js', 'public/modules/stringScope/**/**/*.js'],
-    clientCSS: ['public/modules/core/css/*.less', 'public/modules/sharingData/css/*.less', 'public/modules/ngFilters/css/*.less', 'public/modules/directivesToCtrl/css/*.less','public/modules/isolatedScopes/css/*.less']
+    clientCSS: ['public/modules/core/css/*.less', 'public/modules/sharingData/css/*.less', 'public/modules/ngFilters/css/*.less', 'public/modules/directivesToCtrl/css/*.less','public/modules/isolatedScopes/css/*.less','public/modules/stringScope/css/*.less']
   };
 
   grunt.initConfig({
