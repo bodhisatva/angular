@@ -103,3 +103,7 @@ html {
   color: #CC4040;
   font-weight: bold;
 }
+
+.well-container .single {
+  padding: 5% 15%;
+}
