@@ -1,0 +1,21 @@
+<div class="row">
+  <h1 class="text-center main-title"><span class="sign">&equals;</span> Isolated scope</h1>
+</div>
+<div class="row leading">
+  <p class="description">Equals sign (&equals;) restricts scope in two-way binding. When parent scope updates, isolated scope will be updated. If the isolated scope updates, it will send the updated information through controller to a property which will be updated. The updating works in both way.</p>
+</div>
+<div data-ng-controller="twoWayIsolateScopeCtrl as twoWayScope">
+  <div class="well-container">
+    <div class="row">
+      <h4 class="text-uppercase"><span class="glyphicon glyphicon-download"></span> Parent scope</h4>
+    </div>
+    <div class="row">
+      <div class="well single">
+        <input type="text" class="form-control text-center" data-ng-model="parentBinding" />
+      </div>
+    </div>
+  </div>
+  <div class="well-container">
+      <div binding two-way-bind="parentBinding"></div>
+  </div>
+</div>
