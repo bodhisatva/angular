@@ -7,6 +7,12 @@
   padding: 3% 0;
   border-bottom: 1px solid #eee;
 }
+@media (max-width: 450px) {
+  .main-title {
+    font-size: 2.2em;
+    font-weight: bold;
+  }
+}
 .leading {
   padding: 3% 0;
 }
@@ -104,6 +110,9 @@ html {
   font-weight: bold;
 }
 
+.main-title .sign {
+  font-weight: bold;
+}
 .well-container .single {
   padding: 5% 15%;
 }
