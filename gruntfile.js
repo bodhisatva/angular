@@ -7,8 +7,8 @@ module.exports = function(grunt) {
     clientViews: ['public/modules/**/**/*.html', 'public/resources/templateUrl/*.html'],
     serverJS: ['gruntfile.js', 'server.js', 'app/**/**/*.js'],
 
-    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/**/*.js', 'public/modules/sharingData/**/**/*.js', 'public/modules/filters/**/**/*.js', 'public/modules/ngFilters/**/**/*.js', 'public/modules/directivesToCtrl/**/**/*.js', 'public/modules/isolatedScopes/**/**/*.js', 'public/modules/stringScope/**/**/*.js', 'public/modules/twoWayIsolateScope/**/**/*.js'],
-    clientCSS: ['public/modules/core/css/*.less', 'public/modules/sharingData/css/*.less', 'public/modules/ngFilters/css/*.less', 'public/modules/directivesToCtrl/css/*.less','public/modules/isolatedScopes/css/*.less','public/modules/stringScope/css/*.less','public/modules/twoWayIsolateScope/css/*.less']
+    clientJS: ['public/javascript/**/*.js', 'public/*.js', 'public/modules/core/**/**/*.js', 'public/modules/sharingData/**/**/*.js', 'public/modules/filters/**/**/*.js', 'public/modules/ngFilters/**/**/*.js', 'public/modules/directivesToCtrl/**/**/*.js', 'public/modules/isolatedScopes/**/**/*.js', 'public/modules/stringScope/**/**/*.js', 'public/modules/twoWayIsolateScope/**/**/*.js','public/modules/expressionInIsolateScope/**/**/*.js'],
+    clientCSS: ['public/modules/core/css/*.less', 'public/modules/sharingData/css/*.less', 'public/modules/ngFilters/css/*.less', 'public/modules/directivesToCtrl/css/*.less','public/modules/isolatedScopes/css/*.less','public/modules/stringScope/css/*.less','public/modules/twoWayIsolateScope/css/*.less','public/modules/expressionInIsolateScope/css/*.less']
   };
 
   grunt.initConfig({

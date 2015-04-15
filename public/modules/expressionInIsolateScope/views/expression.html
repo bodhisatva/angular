@@ -1,0 +1,10 @@
+<div class="row">
+  <h1 class="main-title text-center"><span class="sign">&amp;</span> Isolate Scope</h1>
+</div>
+<div class="row leading">
+  <p class="description">In isolated scope a method on the parent scope can be invoked with &amp; sign. The button with directive text is a custom directive with isolate scope using &amp; sign. When the button is pressed the alert function is invoked with the typed text. Alert function lives in the parent scope controller.</p>
+</div>
+<div data-ng-controller="expressionScopeCtrl as expressionScope">
+  <div expression send="expression(message)"></div>
+  
+</div>
