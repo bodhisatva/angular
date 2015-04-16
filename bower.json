@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "authors": "bodhisatva",
   "description": "Angular-exercises with Bootstrap and Express",
-
   "dependencies": {
     "angular-ui-router": "~0.2.13",
     "angular": "~1.3.10",
-    "bootstrap": "~3.3.2"
+    "bootstrap": "~3.3.2",
+    "angular-bootstrap": "~0.12.1"
   }
 }

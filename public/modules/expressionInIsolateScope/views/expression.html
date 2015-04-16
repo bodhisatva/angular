@@ -5,6 +5,13 @@
   <p class="description">In isolated scope a method on the parent scope can be invoked with &amp; sign. The button with directive text is a custom directive with isolate scope using &amp; sign. When the button is pressed the alert function is invoked with the typed text. Alert function lives in the parent scope controller.</p>
 </div>
 <div data-ng-controller="expressionScopeCtrl as expressionScope">
+  <div class="well-container">
+    <div class="row">
+      <h4 class="text-uppercase"><span class="glyphicon glyphicon-download"></span> Parent Scope</h4>
+      <div class="well single">
+        <alert class="text-center" data-ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
+      </div>
+    </div>
+  </div>
   <div expression send="expression(message)"></div>
-  
 </div>

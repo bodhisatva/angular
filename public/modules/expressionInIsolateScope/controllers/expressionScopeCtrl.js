@@ -3,9 +3,22 @@
 var expressionScope = angular.module('expressionScope', []);
 
 expressionScope.controller('expressionScopeCtrl', ['$scope', function($scope) {
+  $scope.alerts = [];
+
   $scope.expression = function(message) {
     if (message !== undefined) {
-      alert(message);
+      console.log(message);
+
+      $scope.alerts.push({
+        type: 'danger',
+        msg: message
+      });
+      console.log($scope.alerts);
     }
   }
+
+  $scope.closeAlert = function(index) {
+    $scope.alerts.splice(index, 1);
+  };
+
 }]);
