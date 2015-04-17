@@ -3,7 +3,8 @@
 angular.module('expressionScope').directive('expression', function (){
   return {
     scope: {
-        send: '&'
+        send: '&',
+        textValue: '='
     },
     templateUrl: '/resources/templateUrl/expression.html'
   }
