@@ -9,7 +9,7 @@ expressionScope.controller('expressionScopeCtrl', ['$scope', function($scope) {
   $scope.expression = function(message) {
 
     if (message !== undefined) {
-      
+
       $scope.alerts.push({
         type: 'danger',
         msg: message
