@@ -116,3 +116,7 @@ html {
 .well-container .single {
   padding: 5% 15%;
 }
+
+.single .alert {
+  margin-bottom: 0px;
+}
