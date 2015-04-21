@@ -83,8 +83,6 @@ html {
   text-align: center;
 }
 
-
-
 .directive {
   padding: 10% 0;
 }
@@ -110,13 +108,15 @@ html {
   font-weight: bold;
 }
 
+.single .alert {
+  margin-bottom: 0px;
+}
+
+
+
 .main-title .sign {
   font-weight: bold;
 }
 .well-container .single {
   padding: 5% 15%;
-}
-
-.single .alert {
-  margin-bottom: 0px;
 }
