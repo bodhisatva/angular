@@ -3,12 +3,18 @@
 angular.module('transclusion', []).directive('transclusionField', function() {
   return {
     restrict: 'E',
-  },
-  scope: '@',
-  templateUrl: '/resources/templateUrl/transclusion.directive.html',
-  link: function(scope){
+    transclude: true,
+    scope: {
+      title: '@'
+    },
+    templateUrl: '/resources/templateUrl/transclusion.directive.html',
+    link: function(scope) {
       scope.isContentVisible = false;
 
-      scope.toggleContent = !scope.isContentVisible;
+      scope.toggleContent = function() {
+        scope.isContentVisible = !scope.isContentVisible;
+      }
+
+    }
   }
 });

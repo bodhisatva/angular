@@ -10,7 +10,7 @@ angular.module('app', [
     'stringScope',
     'twoWayIsolateScope',
     'expressionScope',
-    'tranclusion'
+    'transclusion'
   ])
   //For directivesCtrlconfiguring providers
   .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider) {
