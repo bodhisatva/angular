@@ -1,0 +1,33 @@
+<div class="row">
+  <h1 class="text-center main-title"><span class="sign">Transclusion</h1>
+</div>
+<div class="row leading">
+  <p class="description">Building a custom directive with tranclusion and without controller. The directive transclusion-field include preservable elements. The way of preventing directive template to overwrite the elements, is to set tranclude true in directive definition.</p>
+  <p class="description ">The first input field creates togglable button. The content is typed in the second input field.</p>
+</div>
+<div class="well-container">
+  <div class="row">
+    <div class="well text-center">
+      <div class="row sub-title">
+        <input type="text" class="form-control text-center" placeholder="Type title for togglable text" data-ng-model="model.title" />
+      </div>
+      <div class="row sub-title">
+        <input type="text" class="form-control text-center last" placeholder="Type content for the togglable text" data-ng-model="model.content" />
+      </div>
+      <div class="row">
+        <transclusion-field data-ng-show="model.title" title="{{model.title}}">
+          <div class="row">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">The content of the second input</h3>
+              </div>
+              <div class="panel-body">
+                <p class="text-uppercase">{{model.content}}</p>
+              </div>
+            </div>
+          </div>
+        </transclusion-field>
+      </div>
+    </div>
+  </div>
+</div>

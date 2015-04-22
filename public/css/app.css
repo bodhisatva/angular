@@ -83,8 +83,6 @@ html {
   text-align: center;
 }
 
-
-
 .directive {
   padding: 10% 0;
 }
@@ -110,6 +108,13 @@ html {
   font-weight: bold;
 }
 
+.single .alert {
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+
+
 .main-title .sign {
   font-weight: bold;
 }
@@ -117,6 +122,36 @@ html {
   padding: 5% 15%;
 }
 
-.single .alert {
-  margin-bottom: 0px;
+.sub-title {
+  padding: 2%;
+  margin: 0;
+}
+.sub-title .last {
+  margin-bottom: 3%;
+}
+.sub-title-input {
+  font-size: 1.5em;
+}
+.panel {
+  border-radius: 0px;
+}
+.panel .panel-heading {
+  text-transform: uppercase;
+  border-color: none;
+}
+.panel .panel-heading .panel-title {
+  font-weight: bold;
+}
+.transclusion-title {
+  padding: 5% 0;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.transclusion-title:hover {
+  color: #CC4040;
+  cursor: pointer;
+  font-weight: bold;
+}
+.visible-content {
+  padding-top: 5%;
 }
