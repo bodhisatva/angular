@@ -13,17 +13,13 @@
       </div>
       <div class="row sub-title">
         <input type="text" class="form-control text-center last" placeholder="Type content for the togglable text" data-ng-model="model.content" />
-      </div>
-      <div class="row">
         <transclusion-field data-ng-show="model.title" title="{{model.title}}">
-          <div class="row">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <h3 class="panel-title">The content of the second input</h3>
-              </div>
-              <div class="panel-body">
-                <p class="text-uppercase">{{model.content}}</p>
-              </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">The content of the second input</h3>
+            </div>
+            <div class="panel-body">
+              <p class="text-uppercase">{{model.content}}</p>
             </div>
           </div>
         </transclusion-field>
